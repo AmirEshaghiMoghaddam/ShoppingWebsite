@@ -1,3 +1,4 @@
+/* navigation section */
 header {
   font-size: 1em;
 }
@@ -37,4 +38,46 @@ header nav .nav-left .register-login-btn i {
   margin: 7px;
   color: #444;
   font-size: 1.1em;
+}
+
+/* slider section */
+
+.slider {
+  position: relative;
+  font-size: 1em;
+}
+.slider .slides {
+}
+.slider .slides .item {
+  position: relative;
+  display: none;
+}
+.slider .slides .item img {
+  width: 100%;
+  max-height: 600px;
+}
+.slider .slides .item span {
+  position: absolute;
+  font-size: 1.5em;
+  color: #222;
+  right: 10%;
+  top: 40%;
+}
+
+.slider .slides .active {
+  display: block;
+}
+.slider .buttons {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  z-index: 1;
+}
+.slider .buttons i {
+  margin-right: 7.5px;
+  cursor: pointer;
+  color: black;
+}
+.slider .buttons i:hover {
+  color: white;
 }
