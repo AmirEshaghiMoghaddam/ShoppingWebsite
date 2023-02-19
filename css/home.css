@@ -172,3 +172,80 @@ header nav .nav-left .register-login-btn i {
   color: white;
   padding-top: 7px;
 }
+
+/* super-offer-section */
+.super-offer-section {
+  padding: 20px;
+  font-size: 1em;
+}
+
+.super-offer-section .super-offer-box {
+  text-align: center;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+.super-offer-box-title {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 30px;
+  display: inline-block;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.super-offer-box .body {
+}
+.super-offer-box .body .image-container {
+  text-align: center;
+  padding: 30px;
+}
+.super-offer-box .body .image-container img {
+  width: 100%;
+}
+.super-offer-box .body .specification {
+  padding: 30px 5px;
+}
+.super-offer-box .body .specification .price-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.super-offer-box .body .specification .price-row .price {
+  margin-left: 50px;
+  color: #444;
+  font-size: 1.2em;
+}
+.super-offer-box .body .specification .price-row .off {
+  color: white;
+  background-color: #e74c3c;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+.super-offer-box .body .specification .title {
+  margin: 40px 0px;
+  font-weight: bold;
+  color: #444;
+  font-size: 1.4em;
+}
+.super-offer-box .body .specification .counter-down {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 10px 50px;
+  padding-top: 20px;
+  font-weight: bold;
+  color: #666;
+}
+.super-offer-box .body .specification .remaining-time {
+  color: #777;
+  font-size: 0.8em;
+}
+
+.banner {
+  text-align: center;
+  padding: 0px 5px;
+}
+.banner img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 80%;
+}
