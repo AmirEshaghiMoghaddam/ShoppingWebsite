@@ -89,7 +89,7 @@ header nav .nav-left .register-login-btn i {
   font-size: 1em;
 }
 
-.product-sec-new .shoping-card {
+.shoping-card {
   text-align: center;
   /* color black whith 0.2 transparency */
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
@@ -248,4 +248,24 @@ header nav .nav-left .register-login-btn i {
   border-radius: 10px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
   width: 80%;
+}
+
+.dragable-list img {
+  width: 60% !important;
+  margin: auto;
+}
+
+/* to fix carousel styling */
+.owl-stage-outer {
+  direction: ltr;
+}
+
+.dragable-list .title {
+  padding: 0px 20px;
+  padding-bottom: 20px;
+}
+.dragable-list .title span {
+  font-size: 1.5em;
+  color: #444;
+  border-bottom: 2px solid red;
 }
